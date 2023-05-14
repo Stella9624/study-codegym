@@ -1,0 +1,9 @@
+	PACKAGE MANAGEMENT WITH APT OR DNF: same command except upgrade
+$ apt upgrade			#> update the software
+$ apt dist-upgrade  		#> update the distribution
+$ apt full-upgrade		#> update everything: the soft and the dist.
+$ apt search package1		#> search for this package
+$ apt list package1 		#> lists if the package is in the database
+$ apt remove package1	#> remove package with unused dependencies by others
+$ apt autoclean && sudo apt autoremove 	#> remove all unused packages at once 
+
