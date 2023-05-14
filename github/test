@@ -6,4 +6,4 @@ $ apt search package1		#> search for this package
 $ apt list package1 		#> lists if the package is in the database
 $ apt remove package1	#> remove package with unused dependencies by others
 $ apt autoclean && sudo apt autoremove 	#> remove all unused packages at once 
-
+lllkll
